@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{0571054B-1E5B-4F38-95C8-B406205BBFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Appication", "CleanArch.Appication\CleanArch.Appication.csproj", "{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{C2F4AD60-DF7E-49D0-8D53-2A801E90771F} = {6EA1510B-DEEE-47B3-A589-CE6B7CD77FD9}
 		{0571054B-1E5B-4F38-95C8-B406205BBFD4} = {7E48633A-661C-48D2-B99F-833F347D3B00}
 		{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0} = {A30C1B7B-F128-497B-A9B6-C4FE5680D09B}
+		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC} = {B6386952-794E-4E07-A7C9-2044E03E4FB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BD969D7-4091-40E1-8A75-4ECFB0186585}
