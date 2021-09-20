@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Appication", "CleanArch.Appication\CleanArch.Appication.csproj", "{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Appication", "CleanArch.Appication\CleanArch.Appication.csproj", "{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{D604B133-32EE-4941-97D7-B4CDFDBFE2E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D604B133-32EE-4941-97D7-B4CDFDBFE2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D604B133-32EE-4941-97D7-B4CDFDBFE2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D604B133-32EE-4941-97D7-B4CDFDBFE2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D604B133-32EE-4941-97D7-B4CDFDBFE2E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{0571054B-1E5B-4F38-95C8-B406205BBFD4} = {7E48633A-661C-48D2-B99F-833F347D3B00}
 		{40615AA2-ECF0-4A3E-A40F-72E5A7FE2EF0} = {A30C1B7B-F128-497B-A9B6-C4FE5680D09B}
 		{A834A61B-BB44-49A8-BAD4-F36B6C1A4EBC} = {B6386952-794E-4E07-A7C9-2044E03E4FB7}
+		{D604B133-32EE-4941-97D7-B4CDFDBFE2E9} = {278496BF-F6AF-424C-9702-6D388C00288F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BD969D7-4091-40E1-8A75-4ECFB0186585}
